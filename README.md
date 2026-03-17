@@ -209,7 +209,7 @@ cp -r marketing/*.md ~/.claude/agents/
 | [Pipeline 分析师](sales/sales-pipeline-analyst.md) | 销售漏斗、预测分析 | 销售数据分析、预测 |
 | [投标策略师](sales/sales-proposal-strategist.md) | 投标方案、提案撰写 | 招投标、方案竞标 |
 
-### 💰 金融部
+### 🏦 金融部
 
 让每一笔钱都清清楚楚。
 
