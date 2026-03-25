@@ -276,6 +276,7 @@
 | `support-finance-tracker` | 财务追踪员 | 专业的财务分析与管控专家，擅长财务规划、预算管理和经营绩效分析 | 翻译 |
 | `support-infrastructure-maintainer` | 基础设施运维师 | 专业的基础设施运维专家，专注系统可靠性、性能优化和技术运营管理 | 翻译 |
 | `support-recruitment-specialist` | 招聘运营专家 | 专业的招聘运营与人才获取专家，精通中国主流招聘渠道运营、人才评估体系搭建 | ⭐ 原创 |
+| `support-supply-chain-strategist` | 供应链采购策略师 | 专业的供应链管理与采购策略专家，精通供应商开发与管理、战略采购、质量管控 | ⭐ 原创 |
 
 ---
 

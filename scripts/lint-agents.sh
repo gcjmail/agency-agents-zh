@@ -11,17 +11,23 @@
 set -euo pipefail
 
 AGENT_DIRS=(
+  academic
   design
   engineering
+  finance
   game-development
+  hr
+  legal
   marketing
   paid-media
   product
   project-management
-  testing
-  support
+  sales
   spatial-computing
   specialized
+  supply-chain
+  support
+  testing
 )
 
 REQUIRED_FRONTMATTER=("name" "description" "color")

@@ -53,10 +53,10 @@ jobs:
         run: |
           ERRORS=0
           # Check README references to agent files
-          grep -oP '\[.*?\]\(((?!http)[^)]+\.md)\)' README.md | grep -oP '\(([^)]+)\)' | tr -d '()' | while read -r link; do
+          while read -r link; do
             if [ ! -f "$link" ]; then
               echo "::error file=README.md::Broken link: $link"
               ERRORS=$((ERRORS + 1))
             fi
-          done
+          done < <(grep -oP '\[.*?\]\(((?!http)[^)]+\.md)\)' README.md | grep -oP '\(([^)]+)\)' | tr -d '()')
           exit $ERRORS
